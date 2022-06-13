@@ -3,6 +3,9 @@
 ## Description
 
 Each error along with its fix , with source link is provided together as a section
+Default Files : Name & Location
+dhcpcddefault.conf
+dnsmasqdefault.conf
 
 ## Raspbian OS
 
