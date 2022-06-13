@@ -4,8 +4,17 @@
 
 Each error along with its fix , with source link is provided together as a section
 Default Files : Name & Location
-dhcpcddefault.conf
-dnsmasqdefault.conf
+#### Under /etc/
+- dhcpcddefault.conf
+- dnsmasqdefault.conf
+- sysctldefault.conf
+- rcdefault.local
+  
+#### Under /etc/default
+- hostapddefault
+
+#### Under /etc/network
+- interfacesdefault
 
 ## Raspbian OS
 
@@ -27,6 +36,16 @@ sudo apt-get update
 * Failed to fetch package http://raspbian.....
 * This happens because the latest link is not stored in the local update list
 * Fix : Make sure apt-get update command has completed successfully.
+
+### Unable to start hostapd service
+* Error : Failed to start hostapd.service: Unit hostapd.service is masked.
+* Fix :
+```
+sudo systemctl unmask hostapd
+sudo systemctl enable hostapd
+sudo systemctl start hostapd
+```
+* Ref : https://github.com/raspberrypi/documentation/issues/1018
 
 ### Executing program
 
