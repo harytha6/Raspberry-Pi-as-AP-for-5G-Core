@@ -17,10 +17,13 @@ sudo apt-get update
 ```
 * Ref : https://forums.raspberrypi.com/viewtopic.php?t=245073
 
-### Installing
+### Unable to fetch packages
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* This could happen while trying to install hostapd or dnsmasq packages.
+* Error : 404 Not found
+* Failed to fetch package http://raspbian.....
+* This happens because the latest link is not stored in the local update list
+* Fix : Make sure apt-get update command has completed successfully.
 
 ### Executing program
 
