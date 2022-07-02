@@ -20,8 +20,15 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Waveshare is already installed on the Pi
+* sudo minicom -D /dev/ttyUSB2 to run AT commands
+* cd Goonline
+* make
+* sudo ./simcom-cm
+* Step
+* Step
+* Step
+
 ```
 code blocks for commands
 ```
