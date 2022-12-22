@@ -2,16 +2,7 @@
     
 Extending the 5G core network of Amarisoft using Raspberry Pi as Wireless AP. Further, adding more of these Access points to create open source 5G-RAN (i.e Access Network)
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
 ## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing Raspberry Pi OS (upgrade from buster to bullseye)
 
@@ -25,24 +16,14 @@ An in-depth paragraph about your project and overview of use.
 * cd Goonline
 * make
 * sudo ./simcom-cm
-* Step
-* Step
-* Step
 
 ```
 code blocks for commands
 ```
 
-## Help
-
-See code snippets inside for detailed information
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
+Haritha Lakshmi Gopinathan
 
 
 ## Version History
