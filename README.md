@@ -13,15 +13,22 @@ An in-depth paragraph about your project and overview of use.
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
-### Installing
+### Installing Raspberry Pi OS (upgrade from buster to bullseye)
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Follow steps to upgrade without removing SD card
+* https://www.linuxuprising.com/2021/11/how-to-upgrade-raspberry-pi-os-10.html#:~:text=The%20easiest%20way%20to%20do,%2C%20in%20the%20Accessories%20category).&text=3.,OS%20from%20Buster%20to%20Bullseye.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Waveshare is already installed on the Pi
+* sudo minicom -D /dev/ttyUSB2 to run AT commands
+* cd Goonline
+* make
+* sudo ./simcom-cm
+* Step
+* Step
+* Step
+
 ```
 code blocks for commands
 ```
