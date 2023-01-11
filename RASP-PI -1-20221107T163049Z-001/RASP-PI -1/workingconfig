@@ -1,0 +1,123 @@
+route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.2.1     0.0.0.0         UG    0      0        0 wwan0
+0.0.0.0         11.11.11.1      0.0.0.0         UG    303    0        0 wlan0
+11.11.11.0      0.0.0.0         255.255.255.0   U     303    0        0 wlan0
+192.168.2.0     0.0.0.0         255.255.255.252 U     0      0        0 wwan0
+
+root@raspberrypi:/lib/systemd/system# iptables -t nat -vnL
+Chain PREROUTING (policy ACCEPT 20469 packets, 1321K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DNAT       udp  --  *      *       0.0.0.0/0            192.168.2.2          udp dpt:8000 to:11.11.11.221:8000
+    0     0 DNAT       all  --  *      *       0.0.0.0/0            192.168.2.2          to:11.11.11.1
+
+Chain INPUT (policy ACCEPT 19799 packets, 1193K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 307 packets, 65217 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+   12  1008 SNAT       all  --  *      *       0.0.0.0/0            192.168.2.1          to:192.168.2.2
+   98  8548 SNAT       all  --  *      *       0.0.0.0/0            192.168.1.0/24       to:192.168.2.2
+    2   105 SNAT       udp  --  *      *       0.0.0.0/0            192.168.2.6          to:192.168.2.2
+
+Chain OUTPUT (policy ACCEPT 214 packets, 16864 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+
+COMMANDS VERBOSE :
+iptables -t nat -A PREROUTING -d 192.168.2.2 -j DNAT --to-destination 11.11.11.1
+iptables --table nat -A PREROUTING -p udp --destination 192.168.2.2 --dport 8000 --jump DNAT --to-destination 11.11.11.221:8000
+iptables -t nat -A POSTROUTING -d 192.168.2.6 -p udp --dport -j SNAT --to-source 192.168.2.2  
+iptables -t nat -A POSTROUTING -d 192.168.1.0/24 -j SNAT --to-source 192.168.2.2 
+iptables -t nat -A POSTROUTING -d 192.168.2.1 -j SNAT --to-source 192.168.2.2  
+
+ ifconfig -a
+br0: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether e4:5f:01:11:16:55  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.11.2  netmask 255.255.255.0  broadcast 192.168.11.255
+        inet6 fe80::2d06:cff8:7a56:f735  prefixlen 64  scopeid 0x20<link>
+        ether e4:5f:01:11:16:55  txqueuelen 1000  (Ethernet)
+        RX packets 519  bytes 55313 (54.0 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 203  bytes 23518 (22.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 924  bytes 63894 (62.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 924  bytes 63894 (62.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 11.11.11.1  netmask 255.255.255.0  broadcast 11.11.11.255
+        inet6 fe80::9f2b:8f27:ca59:6b5b  prefixlen 64  scopeid 0x20<link>
+        ether e4:5f:01:11:16:56  txqueuelen 1000  (Ethernet)
+        RX packets 51909  bytes 5056106 (4.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 47033  bytes 5414295 (5.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wwan0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 192.168.2.2  netmask 255.255.255.252  destination 192.168.2.2
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 7916  bytes 1653248 (1.5 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8645  bytes 1842400 (1.7 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+
+FINAL FINAL
+pi@raspberrypi:~ $ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.2.1     0.0.0.0         UG    0      0        0 wwan0
+0.0.0.0         11.11.11.1      0.0.0.0         UG    303    0        0 wlan0
+11.11.11.0      0.0.0.0         255.255.255.0   U     303    0        0 wlan0
+192.168.2.0     0.0.0.0         255.255.255.252 U     0      0        0 wwan0
+
+root@raspberrypi:/home/pi# iptables -t nat -vnL
+Chain PREROUTING (policy ACCEPT 2654 packets, 178K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+   11   769 DNAT       udp  --  *      *       0.0.0.0/0            192.168.2.2          udp dpt:8000 to:11.11.11.221:8000
+   26  2104 DNAT       udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:8001 to:11.11.11.221:8001
+    8  8860 DNAT       udp  --  *      *       0.0.0.0/0            192.168.2.2          to:11.11.11.221
+    1    84 DNAT       all  --  *      *       0.0.0.0/0            192.168.2.2          to:11.11.11.221
+
+Chain INPUT (policy ACCEPT 2397 packets, 161K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 47 packets, 11901 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  280 18802 SNAT       all  --  *      wwan0   0.0.0.0/0            0.0.0.0/0            to:192.168.2.2
+
+Chain OUTPUT (policy ACCEPT 34 packets, 2312 bytes)
+
+
+root@raspberrypi:/home/pi# iptables -vnL
+Chain INPUT (policy ACCEPT 4791 packets, 321K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 40752 packets, 8688K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 4913 packets, 329K bytes)
+ pkts bytes target     prot opt in     out     source               destination   
+
+
+
+ 
+
+
+

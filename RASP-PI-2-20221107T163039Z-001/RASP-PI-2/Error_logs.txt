@@ -1,0 +1,1087 @@
+SIM PIN not enabled
+
+
+sudo ./simcom-cm 
+[07-02_12:23:03:515] Build Version: 2020-07-14 10:20:15
+[07-02_12:23:03:515] SIMCOM_CM START...
+[07-02_12:23:03:515] ./simcom-cm profile[1] = (null)/(null)/(null)/0, pincode = (null)
+[07-02_12:23:03:515] Find /sys/bus/usb/devices/2-1 idVendor=1e0e idProduct=9001
+[07-02_12:23:03:515] Find /sys/bus/usb/devices/2-1:1.5/net/wwan0
+[07-02_12:23:03:515] Find usbnet_adapter = wwan0
+[07-02_12:23:03:515] Find /sys/bus/usb/devices/2-1:1.5/usbmisc/cdc-wdm0
+[07-02_12:23:03:515] Find qmichannel = /dev/cdc-wdm0
+[07-02_12:23:03:516] netcard driver = qmi_wwan
+[07-02_12:23:03:527] cdc_wdm_fd = 7
+[07-02_12:23:03:625] Get clientWDS = 1
+[07-02_12:23:03:657] Get clientDMS = 1
+[07-02_12:23:03:689] Get clientNAS = 2
+[07-02_12:23:03:721] Get clientUIM = 1
+[07-02_12:23:03:753] Get clientWDA = 1
+[07-02_12:23:03:786] requestBaseBandVersion MPSS.HI.2.0.3-00269-SDX55_CPEALL_PACK-1  1  [Aug 03 2021 13:00:00]
+[07-02_12:23:03:849] requestGetSIMStatus SIMStatus: SIM_PIN
+[07-02_12:23:03:881] requestGetProfile[1] ///0
+[07-02_12:23:03:913] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:03:946] requestQueryDataCall IPv4ConnectionStatus: DISCONNECTED
+[07-02_12:23:04:009] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:09:066] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:14:123] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:19:179] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:24:236] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:29:293] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:34:349] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:39:406] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:44:463] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:49:519] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:49:520] requestSetOperatingMode(1)
+[07-02_12:23:49:551] requestSetOperatingMode(0)
+[07-02_12:23:49:967] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:55:024] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:55:056] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:23:55:120] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:00:081] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:05:137] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:10:194] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:13:715] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:13:747] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:13:779] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:15:250] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:20:308] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:25:364] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:30:421] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:35:477] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:35:477] requestSetOperatingMode(1)
+[07-02_12:24:35:509] requestSetOperatingMode(0)
+[07-02_12:24:35:958] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:36:022] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:41:014] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:41:110] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:46:071] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:51:128] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:24:56:184] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:01:241] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:03:929] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:03:962] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:03:994] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:06:297] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:11:355] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:16:411] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:21:468] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:21:468] requestSetOperatingMode(1)
+[07-02_12:25:21:500] requestSetOperatingMode(0)
+[07-02_12:25:21:980] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:22:044] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:27:036] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+[07-02_12:25:27:133] requestRegistrationState2 MCC: 0, MNC: 0, PS: Detached, DataCap: UNKNOW
+^C[07-02_12:25:30:781] QmiWwanThread exit
+[07-02_12:25:30:783] SIMCOM_CM exit...
+
+
+-------------------------------------------------------------------------------------------------
+
+
+AT commands to enable SIM PIN
+
+
+sudo minicom -D /dev/ttyUSB2
+
+
+Welcome to minicom 2.7.1
+
+OPTIONS: I18n 
+Compiled on Aug 13 2017, 15:25:34.
+Port /dev/ttyUSB2, 12:35:52
+
+Press CTRL-A Z for help on special keys
+
+AT
+OK
+AT+CREG?
++CREG: 0,2
+
+OK
+AT+CIMI#
+ERROR
+AT+CIMI
+ERROR
+AT+CCID
++CCID: 8988211910000020662
+
+OK
+AT+GSN                                                                          
+864284040193067                                                                 
+                                                                                
+OK                                                                              
+AT+CPIN?                                                                        
++CPIN: SIM PIN                                                                  
+                                                                                
+OK                                                                              
+AT+CPIN=1234                                                                    
+OK                                                                              
+                                                                                
++CPIN: READY                                                                    
+                                                                                
+SMS DONE                                                                        
+                                                                                
+PB DONE                                                                         
+at                                                                              
+OK                                                                              
+at+cimi                                                                         
+001010123456789   
+
+-------------------------------------------------------------------------------------------------
+
+
+Ref : https://www.emnify.com/developer-blog/at-commands-for-cellular-modules
+
+-------------------------------------------------------------------------------------------------
+
+successful connect log
+
+pi@raspberrypi:~/SIM8200-M2_5G_HAT_code/Goonline $ sudo ./simcom-cm 
+[07-02_12:41:56:768] Build Version: 2020-07-14 10:20:15
+[07-02_12:41:56:768] SIMCOM_CM START...
+[07-02_12:41:56:768] ./simcom-cm profile[1] = (null)/(null)/(null)/0, pincode = (null)
+[07-02_12:41:56:769] Find /sys/bus/usb/devices/2-1 idVendor=1e0e idProduct=9001
+[07-02_12:41:56:769] Find /sys/bus/usb/devices/2-1:1.5/net/wwan0
+[07-02_12:41:56:769] Find usbnet_adapter = wwan0
+[07-02_12:41:56:769] Find /sys/bus/usb/devices/2-1:1.5/usbmisc/cdc-wdm0
+[07-02_12:41:56:769] Find qmichannel = /dev/cdc-wdm0
+[07-02_12:41:56:770] netcard driver = qmi_wwan
+[07-02_12:41:56:798] cdc_wdm_fd = 7
+[07-02_12:41:56:896] Get clientWDS = 14
+[07-02_12:41:56:928] Get clientDMS = 1
+[07-02_12:41:56:960] Get clientNAS = 2
+[07-02_12:41:56:992] Get clientUIM = 1
+[07-02_12:41:57:024] Get clientWDA = 1
+[07-02_12:41:57:056] requestBaseBandVersion MPSS.HI.2.0.3-00269-SDX55_CPEALL_PACK-1  1  [Aug 03 2021 13:00:00]
+[07-02_12:41:57:120] requestGetSIMStatus SIMStatus: SIM_READY
+[07-02_12:41:57:152] requestGetProfile[1] ///0
+[07-02_12:41:57:184] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:41:57:216] requestQueryDataCall IPv4ConnectionStatus: DISCONNECTED
+[07-02_12:41:57:280] requestRegistrationState2 MCC: 262, MNC: 2, PS: Detached, DataCap: UNKNOW
+[07-02_12:41:59:552] requestRegistrationState2 MCC: 1, MNC: 1, PS: Detached, DataCap: UNKNOW
+[07-02_12:41:59:904] requestRegistrationState2 MCC: 1, MNC: 1, PS: Attached, DataCap: NR5G
+[07-02_12:41:59:969] requestRegistrationState2 MCC: 1, MNC: 1, PS: Attached, DataCap: NR5G
+[07-02_12:42:00:033] requestSetupDataCall WdsConnectionIPv4Handle: 0x364d2b60
+[07-02_12:42:00:097] requestQueryDataCall IPv4ConnectionStatus: CONNECTED
+[07-02_12:42:00:129] ifconfig wwan0 up
+[07-02_12:42:00:143] ifconfig wwan0 down
+[07-02_12:42:00:166] echo Y > /sys/class/net/wwan0/qmi/raw_ip
+[07-02_12:42:00:167] ifconfig wwan0 up
+[07-02_12:42:00:191] busybox udhcpc -f -n -q -t 5 -s /usr/share/udhcpc/default.script -i wwan0
+udhcpc: started, v1.30.1
+No resolv.conf for interface wwan0.udhcpc
+udhcpc: sending discover
+udhcpc: sending select for 192.168.2.2
+udhcpc: lease of 192.168.2.2 obtained, lease time 7200
+[07-02_12:42:00:504] /usr/share/udhcpc/default.script: Resetting default routes
+SIOCDELRT: No such process
+[07-02_12:42:00:513] /usr/share/udhcpc/default.script: Adding DNS 8.8.8.8
+[07-02_12:42:00:513] /usr/share/udhcpc/default.script: Adding DNS 8.8.4.4
+^C[07-02_12:53:00:761] ifconfig wwan0 down
+[07-02_12:53:00:779] ifconfig wwan0 0.0.0.0
+[07-02_12:53:00:953] QmiWwanThread exit
+[07-02_12:53:00:954] SIMCOM_CM exit...
+
+-------------------------------------------------------------------------------------------------
+
+Last 1000 commands
+
+    1  ifconfig -
+    2  ifconfig -A
+    3  ifconfig -a
+    4  sudo apt-get install p7zip-full
+    5  wget https://www.waveshare.com/w/upload/f/fb/SIM8200-M2_5G_HAT_code.7z
+    6  7z x SIM8200-M2_5G_HAT_code.7z
+    7  cat /etc/os-release
+    8  uname -a
+    9  hostnamectl
+   10  ls -a
+   11  pwd
+   12  7z x SIM8200-M2_5G_HAT_code.7z -o/home/pi/SIM8200-M2_5G_HAT_code
+   13  sudo chmod 777 -R SIM8200-M2_5G_HAT_code
+   14  cd SIM8200-M2_5G_HAT_code
+   15  ls -a
+   16  sudo ./install.sh 
+   17  ifconfig -a
+   18  sudo apt-get install minicom
+   19  sudo minicom -D /dev/ttyUSB2
+   20  ifconfig -a
+   21  sudo minicom -D /dev/ttyUSB2
+   22  cd Goonline/
+   23  sudo ./simcom-cm
+   24  ifconfig -a
+   25  shutdown now
+   26  ping 192.68.2.1
+   27  ifconfig -a
+   28  sudo minicom -D /dev/ttyUSB2
+   29  ifconfig -a
+   30  ping 192.168.2.1
+   31  ifconfig -a
+   32  sudo minicom -D /dev/ttyUSB2
+   33  AT+CREG?
+   34  sudo minicom -D /dev/ttyUSB2
+   35  ifocnfig -a
+   36  ifconfig -a
+   37  ping 192.168.2.1
+   38  ifconfig -a
+   39  ping 192.168.2.1
+   40  ifconfig -a
+   41  sudo minicom -D /dev/ttyUSB2
+   42  ping 192.168.2.6
+   43  ping 192.168.2.2
+   44  cd SIM8200-M2_5G_HAT_code/
+   45  cd Goonline/
+   46  sudo ./simcom-cm 
+   47  ifconfig -a
+   48  sudo ./simcom-cm 
+   49  ifconfig -a
+   50  ping 192.168.2.2
+   51  ping 192.168.2.1
+   52  shutdown now
+   53  ping google.com
+   54  nano /etc/hostapd/hostapd.conf
+   55  cd /etc/hostapd/
+   56  ifconfig -a
+   57  sudo apt-get install hostapd
+   58  sudo nano /etc/dhcpcd.conf
+   59  sudo apt-get install hostapd
+   60  sudo apt-get install hostapd --fix-missing
+   61  sudo apt-get install dnsmasq
+   62  sudo apt-get upgrade hostapd
+   63  sudo apt-get upgrade hostapd --fix-missing
+   64  sudo apt-get update hostapd
+   65  sudo apt-get update 
+   66  sudo apt-get install hostapd
+   67  sudo apt-get install hostapd --fix-missing
+   68  cat /etc/os-release
+   69  sudo apt-get install hostapd
+   70  sudo apt-get upgrade hostapd
+   71  wget http://hostap.epitest.fi/releases/hostapd-2.6.tar.gz
+   72  wget http://hostap.epitest.fi/releases/hostapd-0.2.6.tar.gz
+   73  tar -xzf hostapd-0.2.6.tar.gz
+   74  ls -a
+   75  cd hostapd-0.2.6/
+   76  ls -a
+   77  cd hostapd
+   78  sudo apt-get install hostapd
+   79  sudo restart
+   80  sudo restart now
+   81  sudo reboot now
+   82  sudo apt-get install hostapd
+   83  sudo apt-get install hostapd --fix-missing
+   84  cd /etc/apt
+   85  ls -a
+   86  cp sources.list sources.list.original
+   87  sudo cp sources.list sources.list.original
+   88  ls -a
+   89  nano sources.list
+   90  sudo nano sources.list
+   91  sudo apt-get update
+   92  sudo apt-get update --allow-releaseinfo-change
+   93  cd ..
+   94  sudo apt-get upgrade hostapd
+   95  sudo apt-get install hostapd
+   96  cd /etc/hostapd
+   97  ls -a
+   98  systemctl hostapd status
+   99  systemctl status hostapd 
+  100  systemctl stop hostapd 
+  101  systemctl status hostapd 
+  102  cd ..
+  103  sudo apt-get install dnsmasq
+  104  sudo nano /etc/dhcpcd.conf
+  105  cd /etc
+  106  ls -a
+  107  sudo cp dhcpcd.conf dhcpcdoriginal.conf
+  108  nano dhcpcd.conf
+  109  sudo service dhcpcd restart
+  110  sudo service dhcpcd status
+  111  cd /etc/hostapd
+  112  ls -a
+  113  nano hostapd.conf
+  114  sudo nano hostapd.conf
+  115  cd /etc/default
+  116  ls -a
+  117  cd hostapd
+  118  sudo cp hostapd hostapd.original
+  119  ls -a
+  120  sudo nano hostapd
+  121  cd /etc/init
+  122  ls -a
+  123  cd ..
+  124  ls -a
+  125  cd init.d
+  126  ls -a
+  127  sudo cp hostapd hostapd.original
+  128  nano hostapd
+  129  sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
+  130  ls -a
+  131  cd ..
+  132  ls -a
+  133  sudo nano dnsmasq.conf
+  134  net.ipv4.ip_forward
+  135  sysctl net.ipv4.ip_forward
+  136  sysctl -w net.ipv4.ip_forward=1
+  137  sudo sysctl -w net.ipv4.ip_forward=1
+  138  cd ..
+  139  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  140  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+  141  iptables-restore < /etc/iptables.ipv4.nat
+  142  sudo nano /etc/dhcpcd.conf
+  143  sudo apt-get install bridge-utils
+  144  sudo brctl show
+  145  sudo brctl addbr br0
+  146  sudo brctl addif br0 eth0
+  147  sudo brctl addif br0 wlan1
+  148  cd /etc/network/
+  149  ls -a
+  150  sudo cp interfaces interfaces.orig
+  151  sudo nano interfaces
+  152  ifconfig -a
+  153  sudo systemctl start hostapd
+  154  sudo systemctl unmask hostapd
+  155  sudo systemctl start hostapd
+  156  sudo systemctl status hostapd
+  157  sudo reboot
+  158  nano /etc/dhcpcd.conf
+  159  sudo service hostapd start
+  160  ifconfig -a
+  161  sudo service dnsmasq start
+  162  cat journatctl -xe
+  163  systemctl status dnsmasq.service
+  164  nano /etc/dnsmasq.conf
+  165  systemctl status dnsmasq.service
+  166  systemctl start dnsmasq.service
+  167  systemctl status dnsmasq.service
+  168  sudo service dhcp restart
+  169  sudo service dhcpcd restart
+  170  sudo service dhcpcd status
+  171  sudo service hostapd start
+  172  sudo service hostapd status
+  173  sudo service dnsmasq start
+  174  sudo service dnsmasq status
+  175  ping 8.8.8.8
+  176  sudo systemctl stop hostapd
+  177  sudo systemctl stop dnsmasq
+  178  sudo nano /etc/dhcpcd.conf
+  179  sudo service dhcpcd restart
+  180  ping 8.8.8.8
+  181  ifconfig -a
+  182  ping 8.8.8.8
+  183  sysctl net.ipv4.ip_forward
+  184  sysctl -w net.ipv4.ip_forward = 1
+  185  sysctl -w net.ipv4.ip_forward=1
+  186  sudo sysctl -w net.ipv4.ip_forward=1
+  187  ping 8.8.8.8
+  188  ifconfig -a
+  189  sudo iptables -t nat -A POSTROUTING  -o eth0 -j MASQUERADE
+  190  ping 8.8.8.8
+  191  sudo service networking restart
+  192  sudo service networking status
+  193  sysctl net.ipv4.ip_forward
+  194  brctl show
+  195  ping 8.8.8.8
+  196  ping google.com
+  197  sudo service hostapd start
+  198  sudo service hostapd stop
+  199  sudo service hostapd status
+  200  sudo systemctl unmask hostapd
+  201  sudo systemctl enable hostapd
+  202  sudo systemctl start hostapd
+  203  sudo systemctl stop hostapd
+  204  sudo systemctl status hostapd
+  205  nano /etc/hostapd.conf
+  206  nano /etc/hostapd/hostapd.conf
+  207  sudo nano /etc/hostapd/hostapd.conf
+  208  sudo systemctl start hostapd
+  209  sudo systemctl status hostapd
+  210  sudo systemctl stop hostapd
+  211  sudo systemctl status hostapd
+  212  ping 8.8.8.8
+  213  sudo service dhcpcd restart
+  214  sudo service dhcpcd status
+  215  sudo nano/etc/dhcpcd.conf
+  216  sudo nano /etc/dhcpcd.conf
+  217  sudo nano /etc/dnsmas.conf
+  218  sudo service dnsmasq status
+  219  sudo service dnsmasq stop
+  220  sudo service dnsmasq status
+  221  sudo nano /etc/dnsmasq.conf
+  222  sudo nano /etc/hostapd/hostapd.conf
+  223  sudo nano /etc/default/hostapd
+  224  sysctl net.ipv4.ip_forward
+  225  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  226  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+  227  cd /etc
+  228  ls -a
+  229  sudo cp rc.local rc.local.orig
+  230  ls -a
+  231  sudo nano rc.local
+  232  brctl show
+  233  brctl show interfaces
+  234  brctl show br0
+  235  nano /etc/network/interfaces
+  236  sudo nano /etc/network/interfaces
+  237  sudo reboot
+  238  ping 8.8.8.8
+  239  sysctl net.ipv4.ip_forward
+  240  sysctl -w net.ipv4.ip_forward=1
+  241  sudo sysctl -w net.ipv4.ip_forward=1
+  242  ping 8.8.8.8
+  243  sudo service hostapd start
+  244  sudo service hostapd stop
+  245  sudo service hostapd status
+  246  sudo service dnsmasq start
+  247  sudo service dnsmasq status
+  248  sudo nano /etc/dnsmasq.conf
+  249  sudo service dnsmasq start
+  250  sudo service dnsmasq status
+  251  sudo service hostapd start
+  252  sudo service hostapd status
+  253  sudo service hostapd stop
+  254  sudo service dnsmasq sto
+  255  sudo service dnsmasq status
+  256  sudo nano /etc/hostapd/hostapd.conf
+  257  sudo service hostapd start
+  258  sudo service hostapd stop
+  259  sudo service hostapd status
+  260  sudo nano /etc/hostapd/hostapd.conf
+  261  sudo service hostapd start
+  262  sudo service hostapd stop
+  263  brctl showmacs br0
+  264  ifconfig -a
+  265  brctl ifup br0
+  266  brctl show
+  267  sudo rfkill unblock wifi
+  268  sudo service hostapd start
+  269  sudo service hostapd status
+  270  sudo service hostapd stop
+  271  ping 8.8.8.8
+  272  sudo nano /etc/hostapd/hostapd.conf
+  273  cd /etc/wpa_supplicant
+  274  ls -a
+  275  sudo cp wpa_supplicant.conf wpa_supplicant.conf.orig
+  276  sudo nano wpa_supplicant.conf
+  277  sudo service hostapd start
+  278  sudo service hostapd stop
+  279  sudo service hostapd status
+  280  sudo nano /etc/dhcpcd.conf
+  281  ifconfig wlan0 up
+  282  sudo ifconfig wlan0 up
+  283  ifconfig -a
+  284  ping 10.12.18.1
+  285  brctl show
+  286  sudo nano /etc/network/interfaces
+  287  sudo nano /etc/dhcpcd.conf
+  288  sudo nano wpa_supplicant.conf
+  289  sudo nano /etc/hostapd/hostapd.conf
+  290  sudo nano /etc/dnsmasq.conf
+  291  ifconfig -a
+  292  ping 8.8.8.8
+  293  sysctl net.ipv4.ip_forward
+  294  sudo service hostapd restart
+  295  sudo service hostapd status
+  296  sudo service hostapd stop
+  297  sudo service hostapd status
+  298  sudo nano /run/hostapd.pid
+  299  journalctl -u app.service
+  300  systemctl start hostapd
+  301  journalctl -xe"
+  302  journalctl -xe
+  303  sudo nano /etc/hostapd/hostapd.conf
+  304  systemctl start hostapd
+  305  journalctl -xe
+  306  systemctl stop hostapd
+  307  sudo nano /etc/hostapd/hostapd.conf
+  308  sudo systemctl start hostapd
+  309  journalctl -xe
+  310  sudo nano /etc/hostapd/hostapd.conf
+  311  sudo systemctl start hostapd
+  312  journalctl -xe
+  313  lsusb
+  314  ifconfig -a
+  315  sudo nano /etc/hostapd/hostapd.conf
+  316  sudo nano /etc/dnsmasq.conf
+  317  sudo nano /etc/dhcpcd.conf
+  318  sudo nano /etc/network/interfaces
+  319  sudo networking restart
+  320  sudo servicenetworking restart
+  321  sudo service networking restart
+  322  iptables -L
+  323  suso iptables -L
+  324  sudo iptables -L
+  325  sudo iptables -S
+  326  sudo su
+  327  cd SIM8200-M2_5G_HAT_code/
+  328  cd Goonline/
+  329  ./simcom-cm 
+  330  sudo su
+  331  sudo service hostapd status
+  332  ifconfig -a
+  333  sudo service hostapd start
+  334  sudo service hostapd status
+  335  ifconfig -a
+  336  brctl show
+  337  sudo nano etc/network/interfaces
+  338  sudo nano /etc/network/interfaces
+  339  brctl addif br0 wwan0
+  340  sudo brctl addif br0 wwan0
+  341  brctl show
+  342  sudo brctl addif br0 wwan0
+  343  service dnsmasq start
+  344  sudo service hostapd stop
+  345  sudo service hostapd status
+  346  sudo service hostapd start
+  347  sudo service hostapd status
+  348  sudo service hostapd start
+  349  sudo service hostapd restart
+  350  ifconfig -a
+  351  sudo service hostapd stop
+  352  sudo service dnsmasq stop
+  353  sudo shutdown now
+  354  ping google.com
+  355  ping 8.8.8.8
+  356  ifconfig -a
+  357  sudo service dnsmasq status
+  358  sudo service dnsmasq stop
+  359  sudo service hostapd status
+  360  sudo service hostapd stop
+  361  sudo service hostapd status
+  362  sudo service dnsmasq status
+  363  ifconfig -a
+  364  sudo nano /etc/dhcpcd.conf
+  365  sudo service dhcpcd statzs
+  366  sudo service dhcpcd status
+  367  sudo service dhcpcd restart
+  368  sudo service dhcpcd status
+  369  sudo nano /etc/dnsmasq.conf
+  370  sudo nano /etc/hostapd/hostapd.conf
+  371  sudo nano /etc/default/hostapd
+  372  sysctl -w net.ipv4.ip_forward=1
+  373  sudo sysctl -w net.ipv4.ip_forward=1
+  374  sudo iptables -t nat -A POSTROUTING -o wwan0 -j MASQUERADE
+  375  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+  376  iptables-restore < /etc/iptables.ipv4.nat
+  377  sudo nano /etc/rc.local
+  378  sudo nano /etc/iptables.ipv4.nat
+  379  sudo nano /etc/network/interfaces
+  380  brctl show
+  381  sudo brctl addbr br0
+  382  sudo brctl addif br0 wlan1
+  383  sudo service hostapd start
+  384  journalctl -xe
+  385  sudo service dnsmasq start
+  386  sudo service dnsmasq status
+  387  sudo service dnsmasq stop
+  388  sudo service hostapd stop
+  389  sudo nano /etc/hostapd/hostapd.conf
+  390  sudo nano /etc/dnsmasq.conf
+  391  sudo nano /etc/dhcpcd.conf
+  392  sudo service dhcpcd restart
+  393  sudo nano /etc/network/interfaces
+  394  sudo service hostapd start
+  395  sudo service hostapd status
+  396  ifconfig -a
+  397  brctl show
+  398  sudo service dnsmasq start
+  399  ifconfig -a
+  400  sudo service dhcpcd status
+  401  route -n
+  402  ifconfig -a
+  403  sudo reboot
+  404  ifconfig -a
+  405  sysctl net.ipv4-ip_forward
+  406  sysctl net.ipv4.ip_forward
+  407  sudo sysctl -w net.ipv4.ip_forward=1
+  408  sudo service hostapd status
+  409  sudo service dnsmasq status
+  410  sudo service dhcpcd status
+  411  sudo nano /etc/dhcpcd.conf
+  412  sudo service dhcpcd restart
+  413  ifconfig -a
+  414  sudo service hostapd stop
+  415  sudo service hostapd status
+  416  sudo service hostapd start
+  417  sudo service dhcpcd status
+  418  sudo nano /etc/dhcpcd.conf
+  419  sudo service dhcpcd restart
+  420  ifconfig -a
+  421  sudo service hostapd stop
+  422  sudo service hostapd start
+  423  sudo service hostapd status
+  424  sudo service dhcpcd status
+  425  ifconfig -a
+  426  sudo dhcpcd status
+  427  sudo servicedhcpcd status
+  428  sudo service dhcpcd status
+  429  ifconfig -a
+  430  route -n
+  431  sudo service dnsmasq status
+  432  ifconfig -a
+  433  brctl show
+  434  ping 192.168.17.10
+  435  sudo nano /etc/network/interfaces
+  436  sudo journalctl -u dhcpcd
+  437  sudo shutdown now
+  438  ifconfig -a
+  439  sudo service dnsmasq status
+  440  sudo service hostapd status
+  441  ifconfig -a
+  442  ping 192.168.2.0
+  443  ping 192.168.2.1
+  444  route -n
+  445  brctl show
+  446  ping 192.168.1.128
+  447  brctl show
+  448  sudo nano /etc/network/interfaces
+  449  brctl addbr br br2
+  450  sudo brctl addbr br2
+  451  sudo brctl addif br2 wwan0
+  452  sudo nano /etc/iptables.ipv4-nat
+  453  sudo nano /etc/iptables.ipv4.nat
+  454  sudo nano /etc/iptables.ipv4-nat
+  455  sudo nano /etc/iptables.ipv4.nat
+  456  sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+  457  sudo iptables -t nat -A POSTROUTING -o wwan0 -j MASQUERADE
+  458  sudo iptables -A FORWARD -i wwan0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+  459  sudo iptables -A FORWARD -i wlan0 -o wwan0 -j ACCEPT
+  460  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+  461  sudo nano /etc/rc.local
+  462  sudo service hostapd status
+  463  ifconfig -a
+  464  sudo service hostapd restart
+  465  sudo service dnsmasq status
+  466  sudo service dnsmasq restart
+  467  ifconfig -a
+  468  sudo nano /etc/dhcpcd.conf
+  469  route -n
+  470  sudo nano /etc/dhcpcd.conf
+  471  sudo service dhcp restart
+  472  sudo service dhcpcd restart
+  473  sudo service dhcpcd status
+  474  ifconfig -a
+  475  brctl show
+  476  brctl delbr br2
+  477  sudo brctl delbr br2
+  478  sudo brctl delbr br1
+  479  sudo brctl delbr br0
+  480  sudo brctl down  br0
+  481  sudo brctl delif br0 wlan0
+  482  brctl show
+  483  sudo brctl delbr br0
+  484  ifconfig -a
+  485  sudo nano /etc/dhcpcd.conf
+  486  sudo service dhcpcd restart
+  487  ifconfig -a
+  488  route -n
+  489  sudo service hostapd status
+  490  sudo service hostapd stop
+  491  sudo service dnsmasq stop
+  492  sudo nano /etc/dhcpcd.conf
+  493  sudo service dhcpcd restart
+  494  ifconfig -a
+  495  sudo nano /etc/hostapd/hostapd.conf
+  496  sudo nano /etc/default/hostapd
+  497  sudo nano /etc/init.d/hostapd
+  498  sudo nano /etc/dnsmasq.conf
+  499  sudo nano /etc/dhcpcd.conf
+  500  sysctl net.ipv4.ip_forward
+  501  sudo sysctl -w net.ipv4.ip_forward=1
+  502  sudo service hostapd start
+  503  sudo service dnsmasq start
+  504  ifconfig -a
+  505  sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward
+  506  sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+  507  sudo nano /etc/sysctl.conf
+  508  sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+  509  sudo service hostapd status
+  510  sudo service dhcpcd status 
+  511  ping 192.168.2.239
+  512  iwlist wlan0 ap
+  513  sudo iw dev wlan0 station dump
+  514  iw wlan0 link
+  515  ifconfig -a
+  516  tail /proc/net/wireless
+  517  lshw 
+  518  hwinfo
+  519  sudo service hostapd status
+  520  sudo service dnsmas status
+  521  sudo service dnsmasq status
+  522  sudo service dhcpcd status
+  523  route -n
+  524  sudo nano /etc/dhcpcd.conf
+  525  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+  526  sudo service hostapd restart
+  527  sudo service dnsmasq restart
+  528  sudo service dnsmasq starus
+  529  sudo service dnsmasq status
+  530  sudo service hostapd status
+  531  ping 192.168.2.239
+  532  sudo iw dev wlan0 station dump
+  533  sudo nano /etc/network/interfaces
+  534  iwconfig
+  535  iwlist wlan0 scan
+  536  sudo iw dev wlan0 station dump
+  537  iwlist wlan0 scan
+  538  ifconfig -a
+  539  sudo iw dev wlan0 station dump
+  540  sudo service hostapd stop
+  541  sudo service dnsmasq stop
+  542  sudo service hostapd status
+  543  ifconfig -a
+  544  sudo nano /etc/hostapd/hostapd.conf
+  545  ifconfig -a
+  546  sudo service hostapd start
+  547  sudo service dnsmasq start
+  548  sudo service dnsmasq status
+  549  sudo service dnsmasq start
+  550  journalctl -xe
+  551  ifconfig -a
+  552  sudo minicom -D /dev/ttyUSB2
+  553  iwconfig
+  554  sudo service hostapd status
+  555  iwconfig
+  556  ifconfig -a
+  557  iwlist
+  558  iwlist wwan0 frequency
+  559  iwconfig wlan0 frequency
+  560  iwconfig 
+  561  sudo service hostapd status
+  562  sudo service hostapd stop
+  563  sudo nano /etc/hostapd/hostapd.conf
+  564  sudo service hostapd start
+  565  sudo service hostapd status
+  566  ifconfig -a
+  567  minicom -D /dev/ttyUSB2
+  568  ifconfig -a
+  569  sudo iw dev wlan0 station dump
+  570  iwlist wlan0 scan
+  571  ping 192.168.1.134
+  572  ping 192.168.1.128
+  573  ping 192.168.2.1
+  574  cd SIM8200-M2_5G_HAT_code/Goonline/
+  575  sudo minicom -D /dev/ttyUSB2
+  576  ./simcom-cm 
+  577  sudo ./simcom-cm 
+  578  ifconfig wwan0 down
+  579  sudo ifconfig wwan0 down
+  580  ifconfig -a
+  581  ifconfig wlan0 down
+  582  sudo ifconfig wlan0 down
+  583  ifconfig -a
+  584  sudo ifconfig wlan0 up
+  585  ifconfig -a
+  586  sudo service hostapd status
+  587  sudo service dhcpcd status
+  588  route -n
+  589  less /var/log/syslog
+  590  sudo iptables -t nat -v -L -n --line-number
+  591  sudo service hostapd status
+  592  sudo service hostapd start
+  593  sudo service hostapd status
+  594  sudo ifconfig wlan0 up
+  595  sudo service hostapd status
+  596  sudo nano /etc/hostapd/hostapd.conf
+  597  sudo service hostapd status
+  598  sudo service hostapd restart
+  599  sudo service dnsmasq status
+
+  600  sudo service hostapd status
+  601  sudo reboot
+  602  sudo minicom -D /dev/ttyUSB2
+  603  ifconfig -a
+  604  route
+  605  sudo cd SIM8200-M2_5G_HAT_code/
+  606  sudo cd /SIM8200-M2_5G_HAT_code/
+  607  cd SIM8200-M2_5G_HAT_code/
+  608  cd Goonline/
+  609  sudo ./simcom-cm
+  610  iptables -L -n -v --line-numbers
+  611  sudo iptables -L -n -v --line-numbers
+  612  ifconfig -a
+  613  sudo service hostapd status
+  614  syslog
+  615  sudo nano /etc/hostapd/hostapd.conf
+  616  sudo service hostapd restart
+  617  journalctl -xe
+  618  sudo nano /etc/hostapd/hostapd.conf
+  619  sudo service hostapd restart
+  620  sudo service hostapd status
+  621  sudo nano /etc/hostapd/hostapd.conf
+  622  sudo service hostapd restart
+  623  sudo service hostapd status
+  624  sudo service dnsmasq status
+  625  sudo service dnsmasq restart
+  626  sudo service dnsmasq status
+  627  sudo service dhcpcd status
+  628  sudo iw dev wlan0 station dump
+  629  ping 192.168.2.239
+  630  sudo iw dev wlan0 station dump
+  631  ifconfig -a
+  632  route
+  633  sudo iw dev wlan0 station dump
+  634  ping 192.168.2.239
+  635  ping 192.168.1.128
+  636  ping 192.168.2.239
+  637  sudo iptables -L -n -v --line-numbers
+  638  traceroute 192.168.2.239
+  639  traceroute 192.168.2.1
+  640  traceroute 192.168.1.128
+  641  route
+  642  pi@raspberrypi:~/SIM8200-M2_5G_HAT_code/Goonline $ sudo ./simcom-cm
+  643  [07-06_23:03:26:305] Build Version: 2020-07-14 10:20:15
+  644  [07-06_23:03:26:305] SIMCOM_CM START...
+  645  [07-06_23:03:26:306] ./simcom-cm profile[1] = (null)/(null)/(null)/0, pincode = (null)
+  646  [07-06_23:03:26:306] Find /sys/bus/usb/devices/2-1 idVendor=1e0e idProduct=9001
+  647  [07-06_23:03:26:307] Find /sys/bus/usb/devices/2-1:1.5/net/wwan0
+  648  [07-06_23:03:26:307] Find usbnet_adapter = wwan0
+  649  [07-06_23:03:26:307] Find /sys/bus/usb/devices/2-1:1.5/usbmisc/cdc-wdm0
+  650  [07-06_23:03:26:307] Find qmichannel = /dev/cdc-wdm0
+  651  [07-06_23:03:26:308] netcard driver = qmi_wwan
+  652  [07-06_23:03:26:325] cdc_wdm_fd = 7
+  653  [07-06_23:03:26:422] Get clientWDS = 14
+  654  [07-06_23:03:26:454] Get clientDMS = 1
+  655  [07-06_23:03:26:486] Get clientNAS = 2
+  656  [07-06_23:03:26:518] Get clientUIM = 1
+  657  [07-06_23:03:26:550] Get clientWDA = 1
+  658  [07-06_23:03:26:582] requestBaseBandVersion MPSS.HI.2.0.3-00269-SDX55_CPEALL_PACK-1  1  [Aug 03 2021 13:00:00]
+  659  [07-06_23:03:26:646] requestGetSIMStatus SIMStatus: SIM_READY
+  660  [07-06_23:03:26:678] requestGetProfile[1] ///0
+  661  [07-06_23:03:26:710] requestRegistrationState2 MCC: 1, MNC: 1, PS: Attached, DataCap: NR5G
+  662  [07-06_23:03:26:742] requestQueryDataCall IPv4ConnectionStatus: DISCONNECTED
+  663  [07-06_23:03:26:806] requestRegistrationState2 MCC: 1, MNC: 1, PS: Attached, DataCap: NR5G
+  664  [07-06_23:03:26:870] requestSetupDataCall WdsConnectionIPv4Handle: 0x33389fb0
+  665  [07-06_23:03:26:934] requestQueryDataCall IPv4ConnectionStatus: CONNECTED
+  666  [07-06_23:03:26:966] ifconfig wwan0 up
+  667  [07-06_23:03:26:981] busybox udhcpc -f -n -q -t 5 -s /usr/share/udhcpc/default.script -i wwan0
+  668  udhcpc: started, v1.30.1
+  669  No resolv.conf for interface wwan0.udhcpc
+  670  udhcpc: sending discover
+  671  udhcpc: sending select for 192.168.2.2
+  672  udhcpc: lease of 192.168.2.2 obtained, lease time 7200
+  673  [07-06_23:03:27:478] /usr/share/udhcpc/default.script: Resetting default routes
+  674  SIOCDELRT: No such process
+  675  [07-06_23:03:27:488] /usr/share/udhcpc/default.script: Adding DNS 8.8.8.8
+  676  [07-06_23:03:27:488] /usr/share/udhcpc/default.script: Adding DNS 8.8.4.4
+  677  sudo nano /etc/iptables.ipv4.nat
+  678  sudo networking restart
+  679  sudo service networking restart
+  680  ifconfig -a
+  681  sudo iw dev wlan0 station dump
+  682  ping 192.168.2.239
+  683  sudo iw dev wlan0 station dump
+  684  ping 192.168.2.239
+  685  sudo nano /etc/iptables.ipv4.nat
+  686  ifconfig -a
+  687  sudo service hostapd status
+  688  ifconfig -a
+  689  ping 192.168.2.239
+  690  sudo service hostapd stop
+  691  sudo service dnsmasq status
+  692  sudo service dnsmasq stop
+  693  sudo service dnsmasq status
+  694  sudo nano /etc/dhcpcd.conf
+  695  ifconfig -a
+  696  ping 169.254.18.66
+  697  sudo nano /etc/iptables.ipv4.nat
+  698  iptables -t nat -L -n -v --line-numbers
+  699  sudo iptables -t nat -L -n -v --line-numbers
+  700  sudo iptables -D POSTROUTING 1
+  701  sudo iptables -t nat -D POSTROUTING 1
+  702  sudo iptables -t nat -L -n -v --line-numbers
+  703  sudo iptables -t nat -D POSTROUTING -F
+  704  sudo iptables -t nat -F
+  705  sudo iptables -t nat -L -n -v --line-numbers
+  706  sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+  707  sudo iptables -t nat -L -n -v --line-numbers
+  708  sysctl -w net.ipv4-ip_forward=1
+  709  sudo sysctl -w net.ipv4-ip.forward=1
+  710  sudo sysctl -w net.ipv4.ip_forward=1
+  711  ifconfig -a
+  712  ping 169.254.18.66
+  713  sudo service dhcpcd restart
+  714  sudo service dhcpcd status
+  715  sudo service hostapd status
+  716  sudo service hostapd start
+  717  sudo service hostapd status
+  718  sudo service dnsmasq status
+  719  sudo service dnsmasq restart
+  720  journalctl -xe
+  721  sudo nano /etc/dnsmasq.conf
+  722  ifconfig -a
+  723  sudo nano /etc/dnsmasq.conf
+  724  sudo service dnsmasq restart
+  725  sudo service dnsmasq status
+  726  sudo iw dev wlan0 station dump
+  727  sudo service dnsmasq status
+  728  sudo service dhcpcd restart
+  729  sudo service dhcpcd status
+  730  sudo service dnsmasq status
+  731  sudo service hostapd status
+  732  reboot
+  733  sudo service hostapd status
+  734  journalctl -xe
+  735  sudo service dnsmasq status
+  736  sudo service dnsmasq restart
+  737  sudo service dnsmasq status
+  738  ifconfig -a
+  739  ping 192.168.2.239
+  740  sudo iw dev wlan0 station dump
+  741  sudo service dhcpcd status
+  742  route
+  743  ping 192.168.2.239#
+  744  ping 192.168.2.239
+  745  route -n
+  746  sudo nano /etc/dnsmasq.conf
+  747  sysctl net.ipv4.ip_forward
+  748  sudo nano /etc/iptables.ipv4.nat
+  749  sudo nano /etc/dhcpcd.conf
+  750  sudo service dhcpcd restart
+  751  sudo service dhcpcd status
+  752  ifconfig -a
+  753  sudo service hostapd restart
+  754  sudo service hostapd status
+  755  ping 192.168.12.239
+  756  sudo service dnsmasq restart
+  757  sudo service dnsmasq status
+  758  ping 192.168.12.239
+  759  iptables -t nat -v -n -L 
+  760  sudo iptables -t nat -v -n -L 
+  761  sudo iptables -t nat -A POSTROUTING -j MASQUERADE
+  762  sudo iptables -t nat -v -n -L 
+  763  sudo iptables -t nat -D POSTROUTING 1
+  764  sudo iptables -t nat -v -n -L 
+  765  sudo iptables -v -n -L 
+  766  ifconfig -a
+  767  route
+  768  ip route add 169.254.56.138 via eth0
+  769  ip route add 169.254.56.138 via 169.254.0.0/16
+  770  ip route add 169.254.56.138 via 169.254.56.138
+  771  sudo ip route add 169.254.56.138 via 169.254.56.138
+  772  route -n
+  773  sudo ip route del 169.254.56.138 via 169.254.56.138
+  774  route -n
+  775  ip r
+  776  ip route add 192.168.12.0/24 via 192.168.12.250
+  777  sudo ip route add 192.168.12.0/24 via 192.168.12.250
+  778  route -n
+  779  sudo ip route add 169.254.0.0/16 via 169.254.56.138
+  780  route -n
+  781  sudo service hostapd stop
+  782  sudo service dnsmasq stop
+  783  sudo service dhcpcd stop
+  784  ifconfig -a
+  785  sudo nano /etc/dhcpcd.conf
+  786  sudo service networking restart
+  787  iptables -t nat -L
+  788  SUDO iptables -t nat -L
+  789  sudo iptables -t nat -L
+  790  sudo iptables -L
+
+  791  sudo iptables -L -v -n
+  792  sudo service hostapd restart
+  793  sudo service dnsmasq restart
+  794  journalctl -xe
+  795  sudo service dnsmasq restart
+  796  sudo service hostapd status
+  797  sudo service dhcpcd restart
+  798  sudo service dnsmasq res
+  799  sudo service dnsmasq status
+  800  sudo service dhcpcd status
+  801  route 
+  802  ping 192.168.12.239
+  803  sudo iw dev wlan0 station dump
+  804  ifconfig -a
+  805  sudo iproute add 192.168.12.0/24 via 192.168.12.250
+  806  sudo ip route add 192.168.12.0/24 via 192.168.12.250
+  807  route -n
+  808  sudo ip route add 169.254.0.0/16 via 169.254.56.138
+  809  route -n
+  810  ping 192.168.12.239
+  811  sudo service hostapd stop
+  812  sudo service dnsmasq stop
+  813  sudo service dhcpcd stop
+  814  sudo nano /etc/network/interfaces
+  815  sudo nano /etc/dhcpcd.conf
+  816  sudo nano /etc/dnsmasq.conf
+  817  sudo nano /etc/iptables.ipv4.nat
+  818  iptables -t nat -v -n -L 
+  819  sudo iptables -t nat -v -n -L 
+  820  sudo iptables -v -n -L 
+  821  route -n
+  822  sudo service dnsmasq status
+  823  sudo service dhcpcd status
+  824  sudo service hostapd status
+  825  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+  826  sudo nano /etc/iptables.ipv4.nat
+  827  sudo reboot
+  828  cd SIM8200-M2_5G_HAT_code/
+  829  cd Goonline/
+  830  sudo ./simcom-cm
+  831  ifconfig -a
+  832  sudo minicom -D /dev/ttyUSB2
+  833  ifconfig -a
+  834  ifconfig wwan0 up
+  835  sudo ifconfig wwan0 up
+  836* 
+  837  ifconfig -a
+  838  route
+  839  sudo service hostapd start
+  840  sudo service hostapd stop
+  841  sudo service dnsmasq stop
+  842  sudo service dhcpcd stop
+  843  sysctl net.ipv4.ip_forward
+  844  route -n
+  845  ip route add 192.168.12.0/24 via 192.168.12.250
+  846  sudo ip route add 192.168.12.0/24 via 192.168.12.250
+  847  ip route add 192.168.12.0/24 via 192.168.12.250
+  848  route -n
+  849  sudo ip route add 192.168.2.0/24 via 192.168.2.2
+  850  iptables -t nat -v -n -L
+  851  sudo iptables -t nat -v -n -L
+  852  sudo iptables -v -n -L
+  853  sudo service hostapd start
+  854  sudo service dnsmasq start
+  855  sudo service dnsmasq status
+  856  sudo service dhcpcd status
+  857  ifconfig -a
+  858  sudo service hsotapd status
+  859  sudo service hostapd status
+  860  sudo service hostapd restart
+  861  ping 192.168.12.239
+  862  sudo ip route add 192.168.2.0/24 via 192.168.2.2
+  863  ping 192.168.12.239
+  864  sudo ip route add 192.168.2.0/24 via 192.168.2.2
+  865  route -n
+  866  traceroute 192.168.1.128
+  867  sudo iw dev wlan0 station dump
+  868  sudo shutdown now
+  869  ifconfig -a
+  870  ip addr show
+  871  ip a
+  872  ifconfig -a
+  873  iptables -t nat -v -n -L
+  874  SUDO iptables -t nat -v -n -L
+  875  sudo iptables -t nat -v -n -L
+  876  sudo iptables -v -n -L
+  877  sudo service hostapd stop
+  878  sudo service dnsmasq stop
+  879  sudo shutdown now
+  880  sudo iw dev wlan0 station dump
+  881  sudo iptables -v -n -L
+  882  cd SIM8200-M2_5G_HAT_code/
+  883  ls -a
+  884  cd Goonline/
+  885  ls -a
+  886  sudo ./simcom-cm
+  887  sudo minicom -D /dev/ttyUSB2
+  888  sudo ./simcom-cm
+  889  last -100
+  890  history 100
+
+
+
+
+
+
