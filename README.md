@@ -19,6 +19,15 @@ Extending the 5G core network of Amarisoft using Raspberry Pi as Wireless AP. Fu
 ![gnbsaho2](https://user-images.githubusercontent.com/74201141/211921497-c0119692-c5de-40e4-96f8-764b9eec6f97.png)
 
 
+### Configuring NAPT Rules to enable two-way SDP Traffic
+
+```
+iptables -t nat -A PREROUTING -p udp --destination 192.168.2.2 --dport 8000 --jump DNAT --to-destination 11.11.11.221:8000 
+iptables -t nat -A PREROUTING -p udp --destination 192.168.2.2 --dport 8001 --jump DNAT --to-destination 11.11.11.221:8001 
+iptables -t nat -A PREROUTING -p udp -d 192.168.2.2 -j DNAT --to-destination 11.11.11.221 
+iptables -t nat -A POSTROUTING -o wwan0 -j SNAT --to-source 192.168.2.2
+```
+
 ### Executing program
 
 * Waveshare is already installed on the Pi
